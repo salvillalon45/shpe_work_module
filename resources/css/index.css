@@ -1,0 +1,48 @@
+/* ------------------------------------------------- */
+/*
+  BACKGROUND COLOR FOR WEBSITE
+*/
+/* ------------------------------------------------- */
+body {
+  background-color: #C0BFC7;
+}
+
+
+/* ------------------------------------------------- */
+/*
+  NAVIGATION BAR
+*/
+/* ------------------------------------------------- */
+.navbar {
+  background-color: #FFFFFF;
+}
+
+.navbar-light .navbar-brand {
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: green;
+}
+/*
+
+TRYING TO FIX THE CONTENT SO THAT IT IS IN THE MIDDLE
+
+*/
+
+/* ------------------------------------------------- */
+/*
+  CONTENT
+*/
+/* ------------------------------------------------- */
+.container {
+  /*margin: 0 auto;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  /*min-height: 100vh; /* These two lines are counted as one :-)       */*/
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
