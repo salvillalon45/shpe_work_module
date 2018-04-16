@@ -23,12 +23,18 @@ body {
   margin: 0 auto;
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
-
   display: flex;
   justify-content: center;
   align-items: center
 }
 
+.landing .h1, h1 {
+  font-size: 100px;
+}
+
+.landing .h2, h2 {
+  font-size: 95px;
+}
 
 /* ------------------------------------------------- */
 /*
@@ -44,4 +50,8 @@ body {
 .btn-train:hover {
   background-color: white;
   color: #1A2E95;
+}
+
+.btn {
+  font-size: 40px;
 }
